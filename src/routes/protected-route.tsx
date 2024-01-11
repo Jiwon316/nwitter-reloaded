@@ -10,7 +10,7 @@ export default function ProtectedRoute({
   //firebase에 유저 정보를 요청
   const user = auth.currentUser;
   if (user === null) {
-    return <Navigate to="/login"></Navigate>;
+    return <Navigate to="/login" />;
   }
   return children;
 }
