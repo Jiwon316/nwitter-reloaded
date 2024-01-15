@@ -5,7 +5,7 @@ import { auth } from "../firebase";
 const Wrapper = styled.div`
 display: grid;
 gap: 20px;
-height: 100px;
+height: 100%;
 grid-template-columns: 1fr 4fr;
 padding: 50px 0px;
 width: 100%;
